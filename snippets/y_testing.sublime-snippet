@@ -1,0 +1,11 @@
+<snippet>
+	<description>y_testing</description>
+	<content><![CDATA[
+Test:${1:testing_name}()
+{
+	${4}
+}
+]]></content>
+	<tabTrigger>Test:</tabTrigger>
+	<scope>source.pawn</scope>
+</snippet>

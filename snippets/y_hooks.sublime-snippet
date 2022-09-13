@@ -1,0 +1,11 @@
+<snippet>
+	<description>y_hooks</description>
+	<content><![CDATA[
+hook ${1:name}(${2:arg})
+{
+	${4}
+}
+]]></content>
+	<tabTrigger>hook</tabTrigger>
+	<scope>source.pawn</scope>
+</snippet>

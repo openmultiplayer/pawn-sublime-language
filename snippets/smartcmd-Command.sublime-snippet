@@ -1,8 +1,8 @@
 <snippet>
 	<description>SmartCMD command</description>
 	<content><![CDATA[
-COMMAND$<{2:flags}>:${1:name}(cmdid, playerid, params[]) {
-	
+COMMAND$<{2:flags}>:${1:name}(cmdid, playerid, params[]) 
+{
 	${4}
 	return CMD_SUCCESS;
 }
