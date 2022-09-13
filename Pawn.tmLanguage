@@ -33,9 +33,10 @@
 	</string>
 	<key>fileTypes</key>
 	<array>
+		<string>pawn</string>
 		<string>p</string>
-		<string>pwn</string>
 		<string>inc</string>
+		<string>pwn</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>-[*]-( Mode:)? C -[*]-</string>
