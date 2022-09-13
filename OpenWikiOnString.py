@@ -6,4 +6,8 @@ import webbrowser
 class OpenWikiOnString(sublime_plugin.TextCommand):
     def run(self, edit):
         query = self.view.substr(self.view.sel()[0])
-        webbrowser.open_new("http://wiki.sa-mp.com/wiki/" + query)
+        
+        if 'On' in query:
+            webbrowser.open_new("https://open.mp/docs/scripting/callbacks" + query)
+        else:
+            webbrowser.open_new("https://open.mp/docs/scripting/functions" + query)
