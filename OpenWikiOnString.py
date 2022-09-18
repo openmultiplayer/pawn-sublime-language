@@ -3,7 +3,7 @@ import sublime_plugin
 import webbrowser
 
 
-class OpenWikiOnString(sublime_plugin.TextCommand):
+class OpenWikiCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         query = self.view.substr(self.view.sel()[0])
         
