@@ -1,0 +1,11 @@
+<snippet>
+	<description>Discord Command</description>
+	<content><![CDATA[
+DCMD:${1:command_name}(user, channel, params[]) {
+	${4}
+	return 1;
+}
+]]></content>
+	<tabTrigger>DCMD</tabTrigger>
+	<scope>source.pawn</scope>
+</snippet>

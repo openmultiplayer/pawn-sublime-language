@@ -1,0 +1,16 @@
+<snippet>
+	<description>Include guard</description>
+    <content><![CDATA[
+		#if defined _inc_${1:include_name}
+			#undef ${1:include_name}
+		#endif
+		
+		#if defined ${2:_file_included}
+			#endinput
+		#endif
+
+		#define ${2:_file_included}
+	]]></content>
+    <tabTrigger>_inc_</tabTrigger>
+    <scope>source.pawn</scope>
+</snippet>
